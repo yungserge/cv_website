@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Sergey Antonyukov</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <a href="de.html">de</a> <a href="de.html"><img src="images/de.png" alt="de" style="width:20px;height:15px;"></a>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #navxx-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Sergey Antonyukov</h1>
+            <h3>Thank you for visiting my CV page</h3>
+            <h3>The work is still in progress</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/sergeyantonyukov" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.github.com/yungserge" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+         <div class="counter-number"></div>
+         <img src="images/cka-certified-kubernetes-administrator.png" alt="CKA" width="130" height="130">
+         <img src="images/aws-certified-solutions-architect-associate.png" alt="AWS_CSA" width="125" height="125">
+         <img src="images/aws-certified-cloud-practitioner.png" alt="AWS_CCP" width="125" height="125">
+         <img src="images/hashicorp-certified-terraform-associate-003.png" alt="CTA" width="125" height="125">
+      </div>
+      
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/me.jpg" alt="" />
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>A dedicated and ambitious professional seeking a DevOps engineer position where I can apply my technical and customer management skills 
+               to contribute to the organization&#39s targets
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Citizenship: USA</span><br>
+						   <span>Phone: +995 599 032 659</span><br>
+                     <span>Email: sergey.antonyukov@gmail.com</span>
+                     <span>Address: Grazer Damm 211, 12157 Berlin, Germany</span><br>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                    <a href="images/Sergey_Antonyukov_CV_en.pdf" class="button" onclick="sendNotification()"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                 <script>
+                  function sendNotification() {
+                    // Make an AJAX request to the Lambda function URL
+                    $.ajax({
+                      url: '',
+                      type: 'POST',
+                      success: function(response) {
+                        // Handle the success response
+                        console.log(response);
+                      },
+                      error: function(error) {
+                        // Handle the error response
+                        console.error(error);
+                      }
+                    });
+                  }
+               </script>
+                
+
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+            <!-- CERTIFICATIONS
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Certified Kubernetes Administrator</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/c41a08b5-e587-4337-9fa3-aa52a6ad29ad/public_url" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issued by Amazon Web Services</em></p>
+
+
+               </div>
+               
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>AWS Certified Solutions Architect - Associate</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/85081669-65cc-411c-8575-057e018a4038/public_url" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issued by Amazon Web Services</em></p>
+
+
+               </div>
+               
+
+            </div> <!-- item end -->
+            
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Terraform Associate</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/30ebd144-52f7-439a-8721-3994e51a36b8/public_url" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issued by HashiCorp</em></p>
+
+            
+               </div>
+               
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>AWS Certified Cloud Practitioner</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/82cb1244-dcd3-4749-bb6b-2b95a938f51c/public_url" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issued by Amazon Web Services</em></p>
+
+
+               </div>
+               
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>German Language Goethe Certificate B1</h3>
+                  <p class="info"><a href="images/GOETHE-ZERTIFIKAT_B1.pdf" target="_blank">Verify Here</a></a> <span>&bull;</span> <em class="date">Issued by Goethe Institut</em></p>
+
+
+               </div>
+               
+
+            </div> <!-- item end -->
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+            <!-- PROJECTS
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1> Open Source </h1>
+            <h1><span>Contribution</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <!--https://shorturl.at/cOP68-->
+
+               <div class="twelve columns">
+
+                  <h3>Kubernetes website</h3>
+                  <p class="info"><a target="_blank">Documentation Localisation</a> <span>&bull;</span> <em class="date">October 2023 - Present</em> </p> 
+
+                  <p>
+
+                     Localise Kubernetes documentation for Russian speaking users. Some examples: 
+                     <a href="https://kubernetes.io/ru/docs/concepts/workloads/">https://kubernetes.io/ru/docs/concepts/workloads/</a>
+                     <a href="https://kubernetes.io/ru/docs/concepts/workloads/controllers/">https://kubernetes.io/ru/docs/concepts/workloads/controllers/</a></p>
+                    </p> 
+                    
+ 
+               </div>
+
+            </div> <!-- item end -->
+
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+      
+      <!-- WORK EXPERIENCE
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Lincoln Electric</h3>
+                  <p class="info"><a >Electrical Engineer</a> <span>&bull;</span> <em class="date">March 2019 - May 2023</em></p>
+
+                  <p>
+                     <div class="skills-section"></div>
+                     - Design and support of manufacturing of welding power sources. Led projects from the conceptual stage to prototyping, alpha and beta testing, and final production
+                     <div class="skills-section"></div>
+                     - Special Products Coordinator: met with customers to discuss their custom product requests, generated quotes, developed prototypes, and designed custom products
+
+                  <hr>
+
+                     <p class="info"><a >Engineering Trainee</a> <span>&bull;</span> <em class="date">June 2018 - March 2019</em></p>
+
+                  <p>
+                     <div class="skills-section"></div>
+                     - Participated in the rotational program designed for highly talented candidates
+                     <div class="skills-section"></div>
+                     - Rotated through several departments of the company: PCB Manufacturing, Software Group, and Plant Engineering, learning how each aspect of the business operates
+                     <hr>
+                     
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>US Army Reserve</h3>
+                  <p class="info"><a target="_blank">Soldier/Construction Engineer</a> <span>&bull;</span> <em class="date">March 2016 - March 2022</em></p>
+                  <p>
+                     <div class="skills-section"></div>
+                     - Improved discipline, attention to detail, and teamwork skills
+                     <div class="skills-section"></div>
+                     - Developed the ability to perform well under pressure
+                    
+                  </p>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>VADovations</h3>
+                  <p class="info"><a >Engineering intern</a> <span>&bull;</span> <em class="date">May 2016 - August 2018</em></p>
+
+
+                  <p>
+                     <div class="skills-section"></div>
+                     - Automated PCB testing by developing a python program that communicated with electrical instruments via SCPI commands
+                     <div class="skills-section"></div>
+                     - Incorporated a safety feature into the HQ pump test to prevent damages from overcurrent utilizing LabVIEW
+
+      
+                  </p>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+
+
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h3> <img src="images/UCO.svg.png" alt="AWS_CCP" width="35" height="35"> University of Central Oklahoma </h3> 
+                  <p class="info">Bachelor of Science, Electrical Engineering </p> <em class="date">Grade: 3.61/4.0</em></p>
+
+				</div><!-- end skill-bars -->
+
+<hr>
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Volunteering</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h3> <img src="images/vt.png" alt="AWS_CCP" width="35" height="35"> Volunteers Tbilisi </h3> 
+                  <em class="date">Support for Ukrainian refugees in Tbilisi, Georgia <span>&bull;</span> <em class="date">May 2016 - August 2018</em> </em></p>
+
+				</div><!-- end skill-bars -->
+
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+   
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/sergeyantonyukov" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.github.com/yungserge" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+   <script src="js/index.js"></script>
+
+</body>
+
+</html>
